@@ -10,8 +10,6 @@ let NumController = function ($scope) {
   };
 
 
-
-
 };
 
 NumController.$inject = ['$scope'];
