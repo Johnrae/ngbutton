@@ -1,5 +1,7 @@
-import $ from 'jquery';
-import _ from 'underscore';
-import moment from 'moment';
+import angular from 'angular';
 
-console.log('Hello, World');
+import NumController from './controller';
+
+angular.module('app', [])
+
+.controller('NumController', NumController);
